@@ -1,0 +1,109 @@
+** Advanced.csv **
+
+seas_id: Unique code for player and season identification
+season: League season
+player_id: Unique player identification code
+player: Player name
+birth_year: Player birth year
+pos: Player position
+age: Player age
+experience: Player years of experience
+lg: League
+tm: Team
+g: Games played
+mp: Minutes played
+per: John Hollinger's PER
+ts_percent: True shooting percentage
+x3p_ar: Percentage of field goal attempts from 3 point range
+f_tr: Free throw rate (Free throws made per field goal attempt)
+orb_percent: Offensive rebound percent
+drb_percent: Defensive rebound percent
+trb_percent: Total rebound percent
+ast_percent Assist percent
+stl_percent: Steal percent
+blk_percent: Block percent
+tov_percent: Turnover percent
+usg_percent: Usage percent
+ows: Offensive win shares
+dws: Defensive win shares
+ws: Win shares
+ws_48: Win shares per 48 minutes
+obpm: Offensive box plus-minus
+dbpm: Defensive box plus-minus
+bpm: Box plus-minus
+vorp: Value over replacement player
+
+
+** Player Season Info.csv **
+
+season: League season
+seas_id: Unique code for player and season identification
+player_id: Unique player identification code 
+player: Player name 
+birth_year: Player birth year
+pos: Player position
+age: Player age
+lg: League
+tm: Team 
+experience: Player years of experience
+
+
+** Player Award Shares.csv **
+
+season: Season
+award: Award
+player: Player name
+age: Player age
+tm: Team
+first: Number of first place votes a player received
+pts_won: Amount of voting points a player got
+pts_max: Maximum number of possible voting points 
+share: Award share
+winner: If player won the respective award or not
+seas_id: Unique code for player and season identification
+player_id: Unique player identification code
+
+
+** All-Star Selections.csv **
+
+player: Player name
+team: Team
+lg: League
+season: Season
+replaced: Whether the player got replaced or not
+
+
+
+** End of Season Teams.csv **
+
+season: Season
+lg: League
+type: Type of NBA team selection
+number_tm: Number of team selection
+player: Player name
+position: Player position
+seas_id: Unique code for player and season identification
+player_id: Unique player identification	code
+birth_year: Player birth year
+tm: Team
+age: Player age
+
+
+** df **
+
+player_id: Unique player identification code
+player: Player name
+g: Games played
+ts_percent: True shooting percentage
+x3p_ar: Percentage of field goal attempts from 3 point range
+f_tr: Free throw rate (Free throws made per field goal attempt)
+trb_percent: Total rebound percent
+ast_percent Assist percent
+stl_percent: Steal percent
+blk_percent: Block percent
+tov_percent: Turnover percent
+usg_percent: Usage percent
+ws: Win shares
+bpm: Box plus-minus
+Career Outcome: The highest level of achievement that a player has reached in their career
+
