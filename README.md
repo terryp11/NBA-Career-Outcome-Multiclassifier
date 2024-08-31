@@ -1,0 +1,5 @@
+The goal of this project is to train different machine learning models to correctly predict the career outcomes of NBA players based on their individual in-game statistics. Each player was manually classified into one of five different career outcomes based on their highest career achievements. The data used to train the models initially consisted of up to 20,000 observations but was trimmed down to 2,722 rows and can be found {r} [here.] (https://www.kaggle.com/datasets/sumitrodatta/nba-aba-baa-stats?resource=download&select=Advanced.csv)
+
+General exploratory data analysis (EDA) was performed to identify potential problems with the data, including issues with normality, missing values, and correlation.
+
+The model training process included stratified k-fold cross-validation and hyperparameter tuning. Four different machine learning models were trained: Logistic Regression, Random Forest, Extreme Gradient Boosted Trees (XGBoost), and K-Nearest Neighbors. Accuracy and ROC AUC were the metrics used to determine the performance of the models.
